@@ -95,4 +95,7 @@ with open(file_to_save, "w") as txt_file:
         print(candidate_results)
         #  Save the candidate results to our text file.
         txt_file.write(candidate_results)
-        # print(winning_candidate_summary)
+        print(winning_candidate_summary)
+
+        # Save the winning candidate's name to the text file.
+    txt_file.write(winning_candidate_summary)
